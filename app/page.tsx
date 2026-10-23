@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import "./page.css";
+import "./letter.css";
 
 const scenes = ["welcome", "verify", "habits", "gacha", "game", "letter", "gifts", "final", "room"] as const;
 type Scene = typeof scenes[number];
